@@ -25,7 +25,7 @@ export class DetailComponent implements OnInit {
 
   constructor(
     private route: ActivatedRoute,
-    private fb: FormBuilder,
+   // private fb: FormBuilder,
     private sessionService: SessionService,
     private sessionApiService: SessionApiService,
     private teacherService: TeacherService,
