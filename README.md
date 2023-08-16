@@ -6,7 +6,7 @@
 
 Git clone:
 
-> git clone https://github.com/OpenClassrooms-Student-Center/P5-Full-Stack-testing](https://github.com/Alcrai/Testez-une-application-full-stack/
+> [git clone https://github.com/OpenClassrooms-Student-Center/P5-Full-Stack-testing](https://github.com/Alcrai/Testez-une-application-full-stack/](https://github.com/Alcrai/Testez-une-application-full-stack.git)
 
 ## Installer le Back end
 
