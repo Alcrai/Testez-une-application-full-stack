@@ -15,13 +15,6 @@ import { MatCardModule } from '@angular/material/card';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { MeComponent } from './components/me/me.component';
 
-const materialModule = [
-  MatButtonModule,
-  MatCardModule,
-  MatIconModule,
-  MatSnackBarModule,
-  MatToolbarModule,
-]
 
 @NgModule({
   declarations: [
@@ -35,7 +28,11 @@ const materialModule = [
     BrowserAnimationsModule, 
     FlexLayoutModule,
     HttpClientModule,
-    ...materialModule
+    MatButtonModule,
+   MatCardModule,
+   MatIconModule,
+   MatSnackBarModule,
+   MatToolbarModule,
   ],
   providers: [
     { provide: HTTP_INTERCEPTORS, useClass: JwtInterceptor, multi: true },

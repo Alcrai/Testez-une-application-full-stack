@@ -78,6 +78,7 @@ describe('LoginComponent', () => {
 
     emailControl?.setValue('');
     expect(emailControl?.hasError('required')).toBe(true);
+  
 
     emailControl?.setValue('test');
     expect(emailControl?.hasError('required')).toBe(false);
