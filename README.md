@@ -1,24 +1,38 @@
 # Testez-une-application-full-stack
+
 # Yoga
-
-#Back
-For launch and generate the jacoco code coverage:
-
-mvn clean test
-
-#Front
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.0.
 
 ## Start the project
 
 Git clone:
 
-> git clone https://github.com/OpenClassrooms-Student-Center/P5-Full-Stack-testing
+> git clone https://github.com/OpenClassrooms-Student-Center/P5-Full-Stack-testing](https://github.com/Alcrai/Testez-une-application-full-stack/
+
+## Installer le Back end
+
+Go inside Folder
+
+> cd front
+
+Install dependencies:
+
+> mvn clean install
+
+Launch the backend server:
+
+>mvn spring-boot:run
+
+Access the backend API at http://localhost:8080.
+
+# For launch and generate the jacoco code coverage:
+
+mvn clean test
+
+## Front End
 
 Go inside folder:
 
-> cd yoga
+> cd front
 
 Install dependencies:
 
